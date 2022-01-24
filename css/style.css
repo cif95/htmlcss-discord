@@ -32,18 +32,8 @@ a{
 	float: left;
 }
 
-.input-button{
-	border:none;
-	padding:10px 20px;
-	border-radius: 20px;
-}
-
 .greybg{
 	background-color:rgb(235, 235, 235);
-}
-
-.light-blue-bg{
-	background-color: rgb(141, 161, 247);
 }
 
 .relative{
@@ -58,6 +48,15 @@ a{
 	color: white;
 }
 
+
+/* buttons style */
+
+.input-button{
+	border:none;
+	padding:10px 20px;
+	border-radius: 20px;
+}
+
 .white-button{
 	background-color:white;
 }
@@ -65,6 +64,27 @@ a{
 .white-button a{
 	color:black;
 }
+
+.dark-button{
+	background-color:rgb(34, 34, 34);
+}
+
+.lightblue-button{
+	background-color: rgb(141, 161, 247);
+}
+
+/* /buttons style */
+
+
+/* fa icons style */
+
+.fa, .fas{
+	padding-right:10px;
+}
+
+/* /fa iconx style */
+
+/* header */
 
 header div.wrapper .main-logo>img{
 	vertical-align: middle;
@@ -85,6 +105,9 @@ header div.wrapper nav li{
 	display: inline;
 }
 
+/* / header */
+
+/* jumbotron */
 
 div.jumbotron{
 	height:50vh;
@@ -113,16 +136,10 @@ div.jumbotron-content button.input-button{
 	margin-right:10px;
 }
 
-button.dark-button{
-	background-color:rgb(34, 34, 34);
-}
+/* /jumbotron */
 
-button.download::before{
-	content: "\f309";
-	font-family:"Font Awesome 5 Free";
-	font-weight: 900;
-	padding-right:5px;
-}
+
+/* section style */
 
 section.item{
 	padding:5rem 0;
@@ -163,3 +180,5 @@ div.wrapper div.stars-bg{
 	background: url(../img/stars.svg) bottom / cover;
 }
 
+
+/* /section style */
