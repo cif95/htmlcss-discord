@@ -68,18 +68,17 @@ header div.wrapper nav li{
 }
 
 div.jumbotron{
-	height:60vh;
+	height:50vh;
 	width:100%;
 	position:relative;
 	background: url(../img/jumbo.png) center / cover;
 }
 
 div.jumbotron-content{
-	width:35%;
-	height:250px;
-	position:absolute;
+	width:40%;
 	top:50%;
 	left:50%;
+	position:absolute;
 	transform: translate(-50%, -50%);
 }
 
