@@ -9,6 +9,11 @@ header{
 	background-color: rgb(49, 97, 224);
 }
 
+a{
+	text-decoration: none;
+	color:black;
+}
+
 .wrapper{
 	width:80%;
 	margin:0 auto;
@@ -62,10 +67,6 @@ header div.wrapper nav li{
 	display: inline;
 }
 
-header div.wrapper nav li a{
-	text-decoration: none;
-}
-
 div.jumbotron{
 	height:60vh;
 	width:100%;
@@ -88,7 +89,6 @@ div.jumbotron-content h2{
 }
 
 div.jumbotron-content p{
-	line-height: 20px;
 	font-size: 0.8rem;
 	padding-bottom:20px;
 }
@@ -97,12 +97,11 @@ div.jumbotron-content button.input-button{
 	margin-right:10px;
 }
 
-.jumbotron-content,
-.dark-button, 
-div.wrapper nav li a{
+.jumbotron-content, 
+div.wrapper nav li a, 
+.dark-button a{
 	color: white;
 }
-
 
 button.dark-button{
 	background-color:rgb(34, 34, 34);
@@ -142,7 +141,7 @@ div.wrapper div.item-description h2{
 
 div.wrapper div.item-description p{
 	padding:1rem 0 1rem;
-	font-size:1.5rem;
+	font-size:1.4rem;
 }
 
 div.wrapper h5{
