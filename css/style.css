@@ -10,8 +10,8 @@ header{
 }
 
 a{
+	color:white;
 	text-decoration: none;
-	color:black;
 }
 
 .wrapper{
@@ -36,23 +36,41 @@ a{
 	border:none;
 	padding:10px 20px;
 	border-radius: 20px;
-	background-color:white;
 }
 
 .greybg{
 	background-color:rgb(235, 235, 235);
 }
 
-.light-blue{
-	color:white;
+.light-blue-bg{
 	background-color: rgb(141, 161, 247);
 }
 
-header div.wrapper #main-logo>img{
+.relative{
+	position:relative;
+}
+
+.absolute{
+	position:absolute;
+}
+
+.white-text{
+	color: white;
+}
+
+.white-button{
+	background-color:white;
+}
+
+.white-button a{
+	color:black;
+}
+
+header div.wrapper .main-logo>img{
 	vertical-align: middle;
 }
 
-header div.wrapper #main-logo,
+header div.wrapper .main-logo,
 header div.wrapper div.input-button{
 	width:150px;
 }
@@ -67,10 +85,10 @@ header div.wrapper nav li{
 	display: inline;
 }
 
+
 div.jumbotron{
 	height:50vh;
 	width:100%;
-	position:relative;
 	background: url(../img/jumbo.png) center / cover;
 }
 
@@ -78,7 +96,6 @@ div.jumbotron-content{
 	width:40%;
 	top:50%;
 	left:50%;
-	position:absolute;
 	transform: translate(-50%, -50%);
 }
 
@@ -94,12 +111,6 @@ div.jumbotron-content p{
 
 div.jumbotron-content button.input-button{
 	margin-right:10px;
-}
-
-.jumbotron-content, 
-div.wrapper nav li a, 
-.dark-button a{
-	color: white;
 }
 
 button.dark-button{
@@ -143,11 +154,12 @@ div.wrapper div.item-description p{
 	font-size:1.4rem;
 }
 
-div.wrapper h5{
+div.wrapper div.stars-bg{
+	margin:20px auto;
 	font-size: 1.4rem;
-	margin: 20px 0;
+	font-weight: bold;
+	width:38vw;
+	padding:10px;
+	background: url(../img/stars.svg) bottom / cover;
 }
-
-
-
 
