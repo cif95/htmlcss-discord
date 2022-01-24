@@ -2,13 +2,24 @@
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
+	font-family: 'Whitney', sans-serif;
+   font-family: 'Whitney Semibold', sans-serif;
+   font-family: 'Whitney Book', sans-serif;
+   font-family: 'Whitney Light', sans-serif;
 }
 
+
 header{
-	height:80px;
 	line-height:80px;
-	text-align:center;
 	background-color: rgb(49, 97, 224);
+}
+
+.wrapper{
+	width:90%;
+	height:100%;
+	text-align: center;
+	margin:0 auto;
+	max-width: 1200px;
 }
 
 .clearfix::after{
@@ -21,11 +32,11 @@ header{
 	float: left;
 }
 
-header div.wrapper{
-	width:90%;
-	height:100%;
-	margin:0 auto;
-	max-width: 1200px;
+.input-button{
+	padding:10px 20px;
+	border:none;
+	background-color:white;
+	border-radius: 20px;
 }
 
 header div.wrapper #main-logo>img{
@@ -52,10 +63,40 @@ header div.wrapper nav li a{
 	text-decoration: none;
 }
 
-.input-button{
-	padding:10px;
-	border:none;
-	background-color:white;
-	border-radius: 20px;
+div.jumbotron{
+	height:60vh;
+	width:100%;
+	position:relative;
+	background: url(../img/jumbo.png) center / cover;
 }
 
+div.jumbotron-content{
+	width:35%;
+	height:250px;
+	position:absolute;
+	color:white;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+div.jumbotron-content h2{
+	padding:20px;
+	font-size:2.5rem;
+	color:white;
+}
+
+div.jumbotron-content p{
+	line-height: 20px;
+	font-size: 0.8rem;
+	padding-bottom:20px;
+}
+
+div.jumbotron-content button.input-button{
+	margin-right:10px;
+}
+
+button#dark-button{
+	color:white;
+	background-color:rgb(34, 34, 34);
+}
