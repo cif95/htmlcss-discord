@@ -14,9 +14,9 @@ header{
 	background-color: rgb(49, 97, 224);
 }
 
+
 .wrapper{
 	width:90%;
-	height:100%;
 	text-align: center;
 	margin:0 auto;
 	max-width: 1200px;
@@ -96,7 +96,42 @@ div.jumbotron-content button.input-button{
 	margin-right:10px;
 }
 
-button#dark-button{
+button.dark-button{
 	color:white;
 	background-color:rgb(34, 34, 34);
+}
+
+button.download::before{
+	content: "\f309";
+	font-family:"Font Awesome 5 Free";
+	font-weight: 900;
+	padding-right:5px;
+}
+
+/* section.item{
+	padding-top:5rem;
+} */
+
+section.item>figure{
+	width:70%;
+	padding-top:6rem;
+}
+
+section.item>figure img{
+	width:80%;
+}
+
+section.item div.item-description{
+	width:30%;
+	padding:8rem 0 0 1rem;
+	text-align: left;
+}
+
+section.item div.item-description h2{
+	font-size: 3rem;
+}
+
+section.item div.item-description p{
+	padding:1rem 0 1rem;
+	font-size:1.5rem;
 }
