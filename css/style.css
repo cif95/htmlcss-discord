@@ -8,12 +8,10 @@
    font-family: 'Whitney Light', sans-serif;
 }
 
-
 header{
 	line-height:80px;
 	background-color: rgb(49, 97, 224);
 }
-
 
 .wrapper{
 	width:90%;
@@ -37,6 +35,10 @@ header{
 	border:none;
 	background-color:white;
 	border-radius: 20px;
+}
+
+.greybg{
+	background-color: rgb(235, 235, 235);
 }
 
 header div.wrapper #main-logo>img{
@@ -108,30 +110,29 @@ button.download::before{
 	padding-right:5px;
 }
 
-/* section.item{
-	padding-top:5rem;
-} */
-
-section.item>figure{
-	width:70%;
-	padding-top:6rem;
+section.item{
+	padding:5rem 0;
 }
 
-section.item>figure img{
+section.item div.wrapper>figure{
+	width:70%;
+}
+
+section.item  div.wrapper>figure img{
 	width:80%;
 }
 
-section.item div.item-description{
+div.wrapper div.item-description{
 	width:30%;
-	padding:8rem 0 0 1rem;
+	padding:2rem 0 0 1rem;
 	text-align: left;
 }
 
-section.item div.item-description h2{
+div.wrapper div.item-description h2{
 	font-size: 3rem;
 }
 
-section.item div.item-description p{
+div.wrapper div.item-description p{
 	padding:1rem 0 1rem;
 	font-size:1.5rem;
 }
