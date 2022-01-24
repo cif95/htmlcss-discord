@@ -3,3 +3,59 @@
 	margin:0;
 	padding:0;
 }
+
+header{
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	background-color: rgb(49, 97, 224);
+}
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.float-left{
+	float: left;
+}
+
+header div.wrapper{
+	width:90%;
+	height:100%;
+	margin:0 auto;
+	max-width: 1200px;
+}
+
+header div.wrapper #main-logo>img{
+	vertical-align: middle;
+}
+
+header div.wrapper #main-logo,
+header div.wrapper div.input-button{
+	width:150px;
+}
+
+header div.wrapper nav{
+	width:calc(100% - 300px)
+}
+
+header div.wrapper nav li{
+	list-style: none;
+	margin-left:25px;
+	display: inline;
+}
+
+header div.wrapper nav li a{
+	color:white;
+	text-decoration: none;
+}
+
+.input-button{
+	padding:10px;
+	border:none;
+	background-color:white;
+	border-radius: 20px;
+}
+
