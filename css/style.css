@@ -10,7 +10,7 @@ header{
 }
 
 .wrapper{
-	width:90%;
+	width:80%;
 	margin:0 auto;
 	max-width: 1200px;
 	text-align: center;
@@ -36,6 +36,11 @@ header{
 
 .greybg{
 	background-color:rgb(235, 235, 235);
+}
+
+.light-blue{
+	color:white;
+	background-color: rgb(141, 161, 247);
 }
 
 header div.wrapper #main-logo>img{
@@ -114,7 +119,7 @@ section.item{
 	padding:5rem 0;
 }
 
-section.item div.wrapper>figure{
+section.item div.wrapper>figure:not(.centered){
 	width:70%;
 }
 
@@ -123,9 +128,12 @@ section.item  div.wrapper>figure img{
 }
 
 div.wrapper div.item-description{
-	width:30%;
 	padding:2rem 0 0 1rem;
+}
+
+div.item-description:not(.centered){
 	text-align: left;
+	width:30%;
 }
 
 div.wrapper div.item-description h2{
@@ -136,3 +144,12 @@ div.wrapper div.item-description p{
 	padding:1rem 0 1rem;
 	font-size:1.5rem;
 }
+
+div.wrapper h5{
+	font-size: 1.4rem;
+	margin: 20px 0;
+}
+
+
+
+
